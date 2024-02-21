@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    
+    
+}
+
+#pdf-list {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #007BFF;
+}
+
+
+/* CSS for Responsiveness */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for tablets */
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Adjust styles for smartphones */
+  }
+  
+  iframe {
+    width: 100%;
+  }
+  
+  #pdf-list {
+    max-width: 800px; /* Adjust max-width as needed */
+    margin: 0 auto;
+  }
+
